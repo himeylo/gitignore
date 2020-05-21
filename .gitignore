@@ -14,30 +14,24 @@ wp-content/plugins/**
 
 # Start editing!
 # github deploy stuff
-!.github/workflows/master.yml
+!.github/workflows/*.yml
 
 # Don't ignore that .gitignore
 !.gitignore
 
 # Theme
-# !wp-content/themes/<theme>/			!! EDIT TO ADD <THEME NAME>, UNCOMMENT + REMOVE THIS MSG
-# !wp-content/themes/<theme>/**			!! EDIT TO ADD <THEME NAME>, UNCOMMENT + REMOVE THIS MSG
+# !wp-content/themes/<theme>/			!! EDIT TO ADD <theme> NAME, UNCOMMENT + REMOVE THIS MSG
+# !wp-content/themes/<theme>/**			!! EDIT TO ADD <theme> NAME, UNCOMMENT + REMOVE THIS MSG
 
 # Plugin
-# !wp-content/plugins/<plugin>/			!! EDIT TO ADD <PLUGIN NAME>, UNCOMMENT + REMOVE THIS MSG
-# !wp-content/plugins/<plugin>/**		!! EDIT TO ADD <PLUGIN NAME>, UNCOMMENT + REMOVE THIS MSG
+# !wp-content/plugins/<plugin>/			!! EDIT TO ADD <plugin> NAME, UNCOMMENT + REMOVE THIS MSG
+# !wp-content/plugins/<plugin>/**		!! EDIT TO ADD <plugin> NAME, UNCOMMENT + REMOVE THIS MSG
 
 # ignore log files and databases
 .npm-debug.log
 tmp
 .sass-cache
 *.css.map
-
-# WPEngine DevKit files (uncomment as needed)
-# .wpengine-conf/**
-# .wpe-pull-ignore
-# .wpe-push-ignore
-# .htaccess
 
 # Functionality Plugins
 
