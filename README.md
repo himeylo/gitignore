@@ -9,6 +9,8 @@ A typical .gitignore file for TTI wpengine website repos, and theme directory's 
 ### .gitignore
 `/.gitignore`
 - Add this [.gitignore file](https://github.com/himeylo/gitignore/blob/master/.gitignore) to your website's local parent directory for pushing to git
+- Uncomment Theme section rows and edit to add theme name in place of <theme> for both rows
+- Uncomment Plugin section rows and edit to add plugin name in place of <plugin> for both rows, if applicable
 
 ### theme's .gitignore
 `/wp-content/themes/THEMENAME/.gitignore`
